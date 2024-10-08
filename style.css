@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    background-color: #053872;
+}
+
+.header-logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-item{
+    width: 113px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-item a{
+    color: #FFFFFF;
+}
+
+.nav-list a{
+    margin-right: 15px;
+}
+
+.nav-list{
+    align-items: center;
+}
+
+.header-language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-language img{
+    width: 24px;
+    height: 24px;
+}
+
+.header-language form{
+    margin-left: 8px;
+    background-color: #053872;
+}
+
+.header-language form select{
+    background-color: #053872;
+    color: #FFFFFF;
+    border: none;
+    width: 79px;
+}
+
+.header-banner{
+    background-image: url(img/doctorimg.svg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+}
+
+.banner-items{
+    vertical-align: bottom;
+    color: #FFFFFF;
+    text-shadow: black 0px 0px 15px;
+}
+
+.item-strong{
+    font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+
+}
+
+.item-large{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+
+}
+
+.header-slider {
+    display: flex; 
+    justify-content: flex-start; 
+    background-color: #053872; 
+    height: 64px; 
+    align-items: center; 
+    overflow: hidden; 
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+
+.header-slider-block {
+    min-width: 20%; 
+    flex-shrink: 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-right: 10%;
+}
+
+
+
+
+
+.container__middle{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header-slider-block p{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 33.6px;
+text-align: center;
+color: #FFFFFF;
+}
+
